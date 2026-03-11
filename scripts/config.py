@@ -6,12 +6,12 @@ Zero-cost stack: Cloudflare Workers AI + Composio (Twitter, LinkedIn, GitHub, Ap
 import os
 
 # Cloudflare Workers AI (existing worker endpoint)
-WORKER_ENDPOINT = "https://clawgig-webhook.fuseini-metadata.workers.dev"
-CF_ACCOUNT_ID = "775b292eb7c3e17b6d3b1e8663a144b9"
+WORKER_ENDPOINT = os.environ.get("WORKER_ENDPOINT", "https://clawgig-webhook.fuseini-metadata.workers.dev")
+CF_ACCOUNT_ID = os.environ.get("CF_ACCOUNT_ID", "")
 
 # Telegram notifications
-TELEGRAM_CHAT_ID = "1018539294"
-TELEGRAM_BOT = "@Fizzletwinbot"
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
+TELEGRAM_BOT = os.environ.get("TELEGRAM_BOT", "")
 
 # GitHub state storage (via Composio)
 GITHUB_OWNER = "fuseinimetadata-commits"
