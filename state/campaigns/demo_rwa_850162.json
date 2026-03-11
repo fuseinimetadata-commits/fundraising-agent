@@ -1,0 +1,67 @@
+{
+  "campaign_id": "demo_rwa_850162",
+  "project_name": "RWA SME Tokenization Protocol",
+  "niche": "web3",
+  "created_at": "2026-03-11T14:34:00Z",
+  "status": "live",
+  "launched_at": "2026-03-11T14:34:00Z",
+  "goal_amount": 50000,
+  "platform": "gitcoin",
+  "kpis": {
+    "views": 0,
+    "clicks": 0,
+    "donations": 0,
+    "amount_raised": 0,
+    "email_open_rate": 0
+  },
+  "versions": [],
+  "distribution_log": [
+    {
+      "action": "launch",
+      "timestamp": "2026-03-11T14:34:00Z",
+      "twitter": {
+        "success": true,
+        "tweet_ids": [
+          "2031741649944998288",
+          "2031741661349363861",
+          "2031741672309018661",
+          "2031741683658850339",
+          "2031741694685725060"
+        ]
+      },
+      "linkedin": {
+        "success": true,
+        "share_urn": "urn:li:share:7437507395620184064"
+      }
+    }
+  ],
+  "content": {
+    "social_posts": {
+      "twitter_threads": [
+        {
+          "post_number": 1,
+          "timing": "Launch day",
+          "thread": [
+            "Unlocking global capital for emerging markets! Meet the decentralized protocol tokenizing real-world assets on Ethereum, empowering SMEs in Africa & SEA to access funding via regulated security tokens.",
+            "The $5 trillion SME funding gap in developing economies stifles growth. Traditional finance often overlooks them. It's time for a change.",
+            "Our ERC-3643 compliant platform enables SMEs to issue transferable security tokens, opening doors to global capital. Transparency, security & efficiency - all on Ethereum.",
+            "Just $50k needed to complete smart contract audit, deploy testnet & onboard 10 issuers. This milestone bridges the funding gap, unlocking opportunities for hundreds of SMEs.",
+            "Support our mission on Gitcoin Grants! Help us democratize access to capital. $50k = 10 issuers onboarded. #Web3ForGood #RWA #ERC3643 #GitcoinGrants"
+          ]
+        }
+      ],
+      "linkedin_posts": [
+        {
+          "post_number": 1,
+          "timing": "Launch day",
+          "content": "Today I am thrilled to share a milestone for inclusive finance. Across Africa and Southeast Asia millions of small and medium enterprises struggle to secure the capital they need, contributing to a $5 trillion funding gap that stalls growth and innovation. Traditional banking systems often overlook these businesses, leaving them dependent on costly informal lenders or unable to scale at all. Our team is building a decentralized protocol on Ethereum that tokenizes real\u2011world assets using the ERC\u20113643 security token standard. By issuing regulated, transferable security tokens, SMEs can tap global investors while staying compliant with local regulations. This platform will unlock new sources of capital, create transparent markets for tangible assets, and empower entrepreneurs to drive economic development in their communities. To bring this vision to life we need $50,000 to complete a rigorous smart\u2011contract audit, launch our testnet, and onboard our first ten issuers. Your contribution will directly fund these critical steps and help close the financing gap for emerging\u2011market businesses. Please visit our Gitcoin Grants page, support the campaign, and spread the word to anyone who believes in the power of Web3 to democratize capital. Together we can build a more equitable financial future. Join us #RWA #ERC3643 #Web3",
+          "hashtags": [
+            "#RWA",
+            "#ERC3643",
+            "#Web3"
+          ]
+        }
+      ]
+    }
+  }
+}
