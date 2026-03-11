@@ -1,0 +1,28 @@
+{
+  "phase": "client_acquisition",
+  "strategy": "inbound_content",
+  "started_at": "2026-03-11T14:44:00Z",
+  "pilot_slots_available": 2,
+  "pilot_slots_taken": 0,
+  "posts": {
+    "twitter_case_study": {
+      "tweet_ids": [
+        "2031743773248557171",
+        "2031743784132706414",
+        "2031743795268558914",
+        "2031743806467342448",
+        "2031743817519370699"
+      ],
+      "url": "https://twitter.com/ERC3643Assessor/status/2031743773248557171"
+    },
+    "linkedin_positioning": {
+      "share_urn": "urn:li:share:7437509518659489792"
+    }
+  },
+  "next_actions": [
+    "Monitor DMs on Twitter + LinkedIn for pilot applicants",
+    "Reply to #Gitcoin #Web3 fundraising tweets daily",
+    "Post follow-up thread in 3 days with optimization demo",
+    "When 2 pilot clients confirmed: charge $500 each for Month 2"
+  ]
+}
