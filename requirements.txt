@@ -1,6 +1,4 @@
-# Fundraising Agent -- Python Dependencies
-# Install: pip install -r requirements.txt
-
-composio-core>=0.7.0
+# Fundraising Agent dependencies
+composio-core>=0.6.0
 requests>=2.31.0
 python-dotenv>=1.0.0
