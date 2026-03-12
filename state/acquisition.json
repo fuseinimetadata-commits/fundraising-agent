@@ -19,6 +19,25 @@
       "share_urn": "urn:li:share:7437509518659489792"
     }
   },
+  "engagement_log": [
+    {
+      "date": "2026-03-12T10:02:00Z",
+      "type": "standalone_tweet",
+      "tweet_id": "2032035104999035003",
+      "topic": "Gitcoin QF warm-up automation",
+      "note": "Cold-reply/QT blocked (403 Basic tier) - posted standalone"
+    },
+    {
+      "date": "2026-03-12T10:02:00Z",
+      "type": "standalone_tweet",
+      "tweet_id": "2032035104986444054",
+      "topic": "RWA tokenization donor journey / GG25",
+      "note": "Cold-reply/QT blocked (403 Basic tier) - posted standalone"
+    }
+  ],
+  "api_notes": {
+    "reply_restriction": "Twitter Basic API blocks cold replies and quote tweets to accounts with no prior engagement. Standalone posts work. Like/follow targets first to unlock replies."
+  },
   "next_actions": [
     "Monitor DMs on Twitter + LinkedIn for pilot applicants",
     "Reply to #Gitcoin #Web3 fundraising tweets daily",
