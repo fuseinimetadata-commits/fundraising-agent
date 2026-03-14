@@ -19,11 +19,17 @@
       "share_urn": "urn:li:share:7437509518659489792"
     },
     "optimization_demo_followup": {
-      "date": "2026-03-14T14:48:00Z",
+      "date": "2026-03-14T15:02:00Z",
       "linkedin_share_urn": "urn:li:share:7438597114915405824",
-      "twitter_thread_status": "pending_auth_reconnect",
-      "twitter_thread_draft_id": "6a4dce6d-17ed-4559-a22a-6f7145af8280",
-      "note": "LinkedIn posted successfully. Twitter 401 - token expired, HITL task created for manual post."
+      "twitter_thread_root_id": "2032834479459279262",
+      "twitter_thread_url": "https://twitter.com/ERC3643Assessor/status/2032834479459279262",
+      "twitter_thread_tweet_ids": [
+        "2032834479459279262",
+        "2032834520030851501",
+        "2032834559977332759",
+        "2032835009229316099",
+        "2032835034286092442"
+      ]
     }
   },
   "engagement_log": [
@@ -46,14 +52,19 @@
       "type": "linkedin_post",
       "post_urn": "urn:li:share:7438597114915405824",
       "topic": "Optimization loop demo - Week 1 Monday report"
+    },
+    {
+      "date": "2026-03-14T15:02:00Z",
+      "type": "twitter_thread",
+      "tweet_id": "2032834479459279262",
+      "topic": "Optimization loop demo thread - 5 tweets"
     }
   ],
   "api_notes": {
     "reply_restriction": "Twitter Basic API blocks cold replies and quote tweets to accounts with no prior engagement. Standalone posts work. Like/follow targets first to unlock replies.",
-    "twitter_auth": "Token expired 2026-03-14. Reconnect via Composio to restore posting."
+    "self_thread": "Self-replies on own thread work fine on Basic tier."
   },
   "next_actions": [
-    "Reconnect Twitter in Composio to resume auto-posting",
     "Monitor DMs on Twitter + LinkedIn for pilot applicants",
     "Reply to #Gitcoin #Web3 fundraising tweets daily",
     "When 2 pilot clients confirmed: charge $500 each for Month 2"
